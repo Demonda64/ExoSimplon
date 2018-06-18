@@ -1,0 +1,96 @@
+body{
+    background-image: url("fond.jpg"); 
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#boite {
+    
+    position: relative;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: Box 2s infinite;
+    -moz-animation: Box 2s infinite;
+    animation: Box 2s infinite;
+    animation-timing-function: linear;
+    top: 460px;
+  }
+  #boite2 {
+    
+    position: relative;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: Box2 6s infinite;
+    -moz-animation: Box2 6s infinite;
+    animation: Box2 6s infinite;
+    animation-timing-function: linear;
+    top: 495px;
+  }
+  
+  @-webkit-keyframes 
+  
+  Box {
+    0% {
+      left: 10px;
+    }
+    50% {
+      left: 700px;
+    }
+    100% {
+      left: 2000px;
+    }
+    }
+    
+    
+    @-webkit-keyframes
+    Box2 {
+    0% {
+        left: 0px;
+        top: 495px;
+      }
+      20% {
+        left: 200px;
+        top: 495px;}
+
+      60%
+      {
+          left: 400px;
+          top: 495px;
+      }
+
+      70%
+      {
+          left:600px;
+          top: 495px;
+      }
+
+      90%
+      {
+          left: 700px;
+          top: 495px;
+      }
+      
+      100%
+      {
+          left: 700px;
+          top: 1000px;
+      }
+       }
+       .rotating {
+        -webkit-animation: rotating 2s linear infinite;
+    }
+    
+       @-webkit-keyframes rotating {
+        from{
+            -webkit-transform: rotate(0deg);
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    
+    
+    
+ 
+    

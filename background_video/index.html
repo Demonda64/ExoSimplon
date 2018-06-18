@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <video autoplay loop poster="Video_arriere_plan.jpg" id="bgvid">
+        <source src="712279929.webm" type="video/webm">
+        <source src="712279929.mp4" type="video/mp4">
+    </video>
+    <div id="neuf">
+        <h1>BlaBlaBla</h1>
+        <p>filmé par Gégé de Simplon
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dictum turpis, eu mollis justo gravida
+                ac. Proin non eros blandit, rutrum est a, cursus quam. Nam ultricies, velit ac suscipit vehicula, turpis
+                eros sollicitudin lacus, at convallis mauris magna non justo. Etiam et suscipit elit. Morbi eu ornare nulla,
+                sit amet ornare est. Sed vehicula ipsum a mattis dapibus. Etiam volutpat vel enim at auctor.
+                <p>Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra eleifend,
+                    erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin
+                    ultrices id sed nisl.</p>
+                <button id="vidpause">Pause</button>
+    </div>
+
+    <script>
+        var video = document.getElementById("bgvid"),
+            pauseButton = document.querySelector("#neuf button");
+
+        if (window.matchMedia('(prefers-reduced-motion)').matches) {
+            vid.removeAttribute("autoplay");
+            vid.pause();
+            pauseButton.innerHTML = "Pause";
+        }
+
+        function play() {
+            video.classList.add("stopfade");
+        }
+
+        video.addEventListener('ended', function () {
+            // only functional if "loop" is removed 
+            video.pause();
+            play();
+        }, false);
+
+        pauseButton.addEventListener("click", function () {
+            video.classList.toggle("stopfade");
+            if (video.pause) {
+                video.play();
+                pauseButton.innerHTML = "Pause";
+            } else {
+                video.pause();
+                pauseButton.innerHTML = "Pause";
+            }
+        }, false);
+
+        video.addEventListener('touchstart', function (e) {
+            e.preventDefault();
+            video.play();
+        })
+            (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'http://google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-9896842-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+</body>
+
+</html>

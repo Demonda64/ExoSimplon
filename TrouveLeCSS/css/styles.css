@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+html
+{
+    height: 100%;
+    width: 100%;
+    background:black;
+    
+    
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+}
+
+article
+{
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+article.uno 
+{
+    background: darkviolet;
+    padding: 10px;
+    height: 230px;
+    width: 350px;
+    
+}
+
+article.dos 
+{
+    background: rgb(33, 193, 233);
+    padding: 10px;
+    width: 800px;
+    height: 230px;
+    margin-left: 60px;
+}
+article.tres 
+{
+    background: rgb(236, 222, 19);
+    padding: 8%;
+    margin-left: 350px;
+    
+}
+article.quatro 
+{
+    background: rgb(35, 211, 0);
+    padding: 8%;
+    margin-right: 303px;
+}
+article.cinquo 
+{
+    background: rgb(165, 25, 123);
+    padding: 10%;
+    bottom: 0;
+    
+    
+}
+article.seis 
+{
+    background: rgb(33, 172, 119);
+    padding: 10%;
+    margin-left: 852px;
+    bottom: 0px;
+    
+}
+article.siete 
+{
+    background: darkviolet;
+    margin: 2,5%;
+    padding: 5%;
+    position: fixed;
+    right: 0;
+    top: 35px;
+
+    
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    background-color: darkorange;
+    left: 800px;
+    padding: 30px;
+}
+
+

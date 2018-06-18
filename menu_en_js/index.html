@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu en Js</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+    <p>Click sur le bouton pour ouvrir le menu.</p>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">menu</button>
+        <div id="myDropdown" class="dropdown-content">
+
+
+
+            <a href="#home">Acceuil</a>
+            <a href="#about">A propos</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</body>
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+</body>
+
+</html>
+
+
+</html>

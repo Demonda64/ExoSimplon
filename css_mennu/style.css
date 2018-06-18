@@ -1,0 +1,44 @@
+.sub-menu-parent { position: relative;color: black; }
+
+.sub-menu { 
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  color: black;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  color: black;
+  transform: translateY(0%);
+  transition-delay: 1s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+
+/* presentational */
+body { padding: 2%; font: 42px sans-serif; }
+
+nav a { color: rgb(238, 69, 69); display: block; padding: 0.5em 1em; text-decoration: none; }
+nav a:hover { color: rgb(163, 2, 2); }
+nav ul,
+nav ul li { list-style-type: none; padding: 0; margin: 0; }
+
+nav > ul > li > ul > a  {color: black;}
+nav > ul > li > ul > a:hover {color: black;}
+nav > ul { background:white; text-align: center; }
+nav > ul > li { display: inline-block; border-left: solid 1px white; }
+nav > ul > li:first-child { border-left: none; }
+
+.sub-menu {
+  background:white;
+  color: black;
+}

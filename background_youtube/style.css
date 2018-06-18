@@ -1,0 +1,50 @@
+body
+{
+    margin:0;
+    padding: 0;
+    background: url(giphy.gif)no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+iframe
+{
+    position: fixed;
+    top: 36%;
+    left: 23%;
+    width: 800px;
+    height: 300px;
+    z-index: -100;
+}
+
+#blue
+{
+    position: fixed;
+    top: 0;
+    left: 57%;
+    height: 15px;
+    background-color: transparent;
+    border:none;
+} 
+
+#red
+{
+    position: fixed;
+    top: 0;
+    left: 20%;
+    height: 300px;
+    background-color: transparent;
+    border:none;
+}
+
+/* Flou */
+ button img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+ button img :hover{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}

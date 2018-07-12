@@ -1,0 +1,51 @@
+[
+    {
+        "nom":"Sangoku",
+        "type":"Sayan",
+        "planete":"Planète Végéta",
+	"attaque":"Kaméhaméha",
+        "classement":1
+    },
+    {
+        "nom":"Vegeta",
+        "type":"Sayan",
+        "planete":"Planète Végéta",
+	"attaque":"Final Flash",
+        "classement":2
+    },
+    {
+        "nom":"Freezer",
+        "type":"Race de glace",
+        "planete":"Pays De Glace",
+	"attaque":"Daichiretsuzan",
+        "classement":3
+    },
+    {
+        "nom":"Picollo",
+        "type":"Namak",
+        "planete":"Namek",
+	"attaque":"Makenkosappo",
+        "classement":4
+    },
+    {
+        "nom":"Buu",
+        "type":"Majin",
+        "planete":"Quelques part dans l'univers",
+	"attaque":"Udebunrikogoki",
+        "classement":5
+    },
+    {
+        "nom":"C-17",
+        "type":"Transhumain",
+        "planete":"Terre",
+	"attaque":"Bouclier d'énergie",
+        "classement":5
+    },
+    {
+        "nom":"Master Roshi Sama",
+        "type":"Humain",
+        "planete":"Terre",
+	"attaque":"Mafuba",
+        "classement":6
+    }
+]

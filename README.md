@@ -11,7 +11,7 @@
   <li><a href="https://demonda64.github.io/ExoSimplon/TrouveLeCSS/index.htmlChanger">Trouver le CSS</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/ajax_fromage_version_dbz/index.html">Ajax DBZ</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/animation_css/index.html">animation css</a></li>
-  <li><a href="https://demonda64.github.io/ExoSimplon/background_vidéo/index.html">background video</a>l</li>
+  <li><a href="https://demonda64.github.io/ExoSimplon/background_vidéo/index.html">background video</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/background_youtube/index.html">background youtube</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/calculette/index.html">Calculette</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/changercouleurtexte/index.html">Changer couleur</a></li>

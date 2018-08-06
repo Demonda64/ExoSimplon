@@ -1,5 +1,4 @@
-# ExoSimplon
-<!DOCTYPE html>
+
 <html>
 <body>
 

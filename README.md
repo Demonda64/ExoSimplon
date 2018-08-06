@@ -28,6 +28,5 @@
   <li><a href=https://demonda64.github.io/ExoSimplon/tableau/index.html>tableaux</a></li>
   <li><a href=https://demonda64.github.io/ExoSimplon/ville_PHP/index.html>ville php</a></li>
 </ul>  
-
 </body>
 </html>

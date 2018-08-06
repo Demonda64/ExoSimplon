@@ -1,9 +1,7 @@
 
 <html>
 <body>
-
 <h2>An unordered HTML list</h2>
-
 <ul>
   <li><a href="https://demonda64.github.io/ExoSimplon/ChangerPosition/index.html">Changer Position Avec La souris</a></li>
   <li><a href=https://demonda64.github.io/ExoSimplon/HORLOGE/index.html>Horloge</a>

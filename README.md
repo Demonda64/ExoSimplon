@@ -12,7 +12,7 @@
   <li><a href="https://demonda64.github.io/ExoSimplon/ajax_fromage_version_dbz/index.html">Ajax DBZ</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/animation_css/index.html">animation css</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/background_video/index.html">background video</a></li>
-  <li><a href="https://demonda64.github.io/ExoSimplon/background_youtube/index.html">background youtube</a></li>
+  <li><a href="https://demonda64.github.io/ExoSimplon/background_youtube/Index.html">background youtube</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/calculette/index.html">Calculette</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/changercouleurtexte/index.html">Changer couleur</a></li>
   <li><a href="https://demonda64.github.io/ExoSimplon/circuit/index.html">Circuit</a></li>

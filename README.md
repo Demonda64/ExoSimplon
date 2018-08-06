@@ -5,7 +5,7 @@
 <h2>An unordered HTML list</h2>
 
 <ul>
-  <li>https://demonda64.github.io/ExoSimplon/ChangerPosition/index.html</li>
+  <li><a href ="https://demonda64.github.io/ExoSimplon/ChangerPosition/index.html"></a></li>
   <li>https://demonda64.github.io/ExoSimplon/HORLOGE/index.html</li>
   <li>https://demonda64.github.io/ExoSimplon/Identifiant_MotDePasseJs/index.html</li>
   <li>https://demonda64.github.io/ExoSimplon/Slides-SlideJs-3/index.html</li>
